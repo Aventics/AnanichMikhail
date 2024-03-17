@@ -146,11 +146,11 @@
                     <h4>Валидация данных HTML5:</h4>
                     <fieldset>
                         <legend>Строка поиска</legend>
-                            <input type="text" name="text ru" value="Только русские буквы" pattern=[А-Яа-яЁё]><br>
+                            <input type="text" name="text ru" value="Только русские буквы" pattern=[А-Яа-яЁё]+$><br>
                         <label>
                             <i>Телефонный номер в формате<br>
                                 +ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i><br>
-                                <input type="tel" name="phone number" value="+375-29-1234567" maxlength="15" pattern="[+[0-9]{3}-[0-9]{2}-[0-9]{7}">
+                                <input type="tel" name="phone number" value="+375-29-1234567" maxlength="15" pattern="+[0-9]{3}-[0-9]{2}-[0-9]{7}">
                         </label>
                         <button>Отправить</button>
                     </fieldset>
