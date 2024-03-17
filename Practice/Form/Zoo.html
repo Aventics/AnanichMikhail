@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo</title>
+</head>
+<body>
+    <h1>Форма заявки для работы в зоопарке</h1>
+    <p><i>Пожалуйста, заполните форму. Обязательные поля помечены *</i></p>
+    <form action="http://fe.it-academy.by/TestForm.php">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <lable>
+                Имя <input type="text" name="Name" required maxlength="20"><br>
+            </lable>
+            <lable>
+                Телефон <input type="tel" name="tel_number"><br>
+            </lable>
+            <lable>
+                Email <input type="email" required>
+            </lable>
+        </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+            <lable>
+                Возраст <input type="number" required min="16" max="60"><br>
+            </lable>
+            <lable>
+                Пол <select name="Пол"><br>
+            </lable>
+                <option value="Мужской">Мужчина</option>
+                <option value="Женский">Женщина</option>
+            </select><br>
+            <lable>
+                Перечислите личные качества 
+                <textarea cols="40" rows="10"></textarea>
+            </lable>
+        </fieldset>
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <lable for="Zebra">Зебра</lable>
+            <input type="checkbox" name="Zebra" id="Zebra">
+            <lable for="Elephant">Слон</lable>
+            <input type="checkbox" name="Elephant" id="Elephant">
+            <lable for="Catzilla">Кошак</lable>
+            <input type="checkbox" name="Catzilla" id="Catzilla">
+            <lable for="Antil">Антилопа</lable>
+            <input type="checkbox" name="Antil" id="Antil"><br>
+            <lable for="Anaconda">Анаконда</lable>
+            <input type="checkbox" name="Anaconda" id="Anaconda">
+            <lable for="Gul">Голубь</lable>
+            <input type="checkbox" name="Gul" id="Gul">
+            <lable for="Human">Человек</lable>
+            <input type="checkbox" name="Human" id="Human">
+            <lable for="Crab">Краб</lable>
+            <input type="checkbox" name="Crab" id="Crab">
+        </fieldset>
+        <input type="submit" value="Отправить информацию">
+    </form>
+
+</body>
+</html>
