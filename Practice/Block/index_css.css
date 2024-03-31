@@ -30,12 +30,15 @@
 }
 .banner div{
     background-color: aquamarine;
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 250px;
+    margin: 25px;
 }
 .footer{
     background-color: aqua;
     height: 50px;
+}
+.clear{
     clear: both;
 }
 li{
@@ -52,5 +55,61 @@ li{
     width: 350px;
     height: 100px;
     margin: 25px;
+}
+@media all and (max-width: 800px){
+    .header{
+        background-color: aqua;
+        height: 300px;
+        width: 100%;
+    }
+    .wrap{
+        background-color: blueviolet;
+    }
+    .menu{
+        background-color: chartreuse;
+        float: none;
+        height: 300px;
+        width: 100%;
+        
+    }
+    .content{
+        background-color: blueviolet;
+        height: 300px;
+        width: 100%;
+    }
+    .banner{
+        background-color: chartreuse;
+        float: none;
+        height: 300px;
+        width: 100%;
+    }
+    .banner div{
+        background-color: aquamarine;
+        width: 150px;
+        height: 250px;
+        margin: 25px;
+    }
+    .footer{
+        background-color: aqua;
+        height: 50px;
+    }
+    .clear{
+        clear: both;
+    }
+    li{
+        list-style-type: none;
+        background-color: burlywood;
+        width: 130;
+        height: 50px;
+        margin: 10px 10px;
+    
+    }
+    .content div{
+        background-color: aqua;
+        float: none;
+        width: 350px;
+        height: 100px;
+        margin: 25px;
+    }    
 }
 
