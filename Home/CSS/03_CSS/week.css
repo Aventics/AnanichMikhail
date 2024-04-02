@@ -10,6 +10,7 @@
 .Menu_level_2{
     width: 150px;
     display: none;
+    
 }
 .Menu_level_2>div{
     background-color: cyan;
@@ -22,6 +23,8 @@
     left: 80%;
     top: 90%;
     z-index: 1;
+    transition-property: all;
+    transition-duration: 3s;
 }
 @media all and (min-width: 616px){
     .Menu_level_1{

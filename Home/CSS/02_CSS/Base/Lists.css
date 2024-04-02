@@ -11,4 +11,6 @@ pre{
     background-color: black;
     color: green;
     width: 400px;
+    max-height: 80px;
+    overflow: hidden;
 }

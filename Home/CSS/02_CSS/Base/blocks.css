@@ -3,20 +3,18 @@
     width: 15em;
     float: left;
 }
-div img{
-    float: right;
-}
+
 .article{
     background-color: darkorchid;
     margin-bottom: .2em;
+    overflow: hidden;
 }
-h3{
-    margin: 0px;
+img{
+   float: right;
 }
-p{
-    margin: 0px;   
+.clear{
+    clear: both;
 }
-
 .footer{
     background-color: rgb(247, 212, 122);
     clear: both;
