@@ -1,0 +1,202 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    height: 50px;
+}
+.wrap{
+    background-color: blueviolet;
+    margin: 0;
+}
+.menu{
+    background-color: chartreuse;
+    float: left;
+    height: 300px;
+    width: 200px;
+    
+}
+.banner{
+    background-color: chartreuse;
+    float: right;
+    height: 300px;
+    width: 200px;
+
+}
+.content{
+    background-color: blueviolet;
+    height: 300px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.banner div{
+    background-color: aquamarine;
+    width: 150px;
+    height: 250px;
+    margin: auto;
+    margin-top: 25px;
+}
+.footer{
+    background-color: aqua;
+    height: 50px;
+}
+.clear{
+    clear: both;
+}
+li{
+    list-style-type: none;
+    background-color: burlywood;
+    width: 130;
+    height: 50px;
+    margin: 10px 10px;
+
+}
+.block{
+    float: none;
+    width: 350px;
+    height: 100px;
+
+
+}
+.block div{
+    background-color: aqua;
+    float: none;
+    height: 90px;
+    margin-top: 20px;
+} 
+@media all and (max-width: 1200px){
+    .header{
+        background-color: aqua;
+        height: 50px;
+    }
+    .wrap{
+        background-color: blueviolet;
+        margin: 0;
+    }
+    .menu{
+        background-color: chartreuse;
+        float: left;
+        height: 300px;
+        width: 200px;
+        
+    }
+    .banner{
+        background-color: chartreuse;
+        float: right;
+        height: 300px;
+        width: 200px;
+    
+    }
+    .content{
+        background-color: blueviolet;
+        height: 300px;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .banner div{
+        background-color: aquamarine;
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .footer{
+        background-color: aqua;
+        height: 50px;
+    }
+    .clear{
+        clear: both;
+    }
+    li{
+        list-style-type: none;
+        background-color: burlywood;
+        width: 130;
+        height: 50px;
+        margin: 10px 10px;
+    
+    }
+    .block{
+        float: none;
+        width: 350px;
+        height: 100px;
+    
+    
+    }
+    .block div{
+        background-color: aqua;
+        float: none;
+        height: 90px;
+        margin-top: 20px;
+    } 
+} 
+@media all and (max-width: 768px){
+    .header{
+        background-color: aqua;
+        height: 300px;
+        width: 100%;
+    }
+    .wrap{
+        background-color: blueviolet;
+    }
+    .menu{
+        background-color: chartreuse;
+        float: none;
+        height: 300px;
+        
+ 
+        
+    }
+    .content{
+        background-color: blueviolet;
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .banner{
+        background-color: chartreuse;
+        float: left;
+        height: 300px;
+        width: 100%;
+    }
+    .banner div{
+        background-color: aquamarine;
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .footer{
+        background-color: aqua;
+        height: 50px;
+    }
+    .clear{
+        clear: both;
+    }
+    li{
+        list-style-type: none;
+        background-color: burlywood;
+        width: 130;
+        height: 50px;
+        margin: 10px 10px;
+    
+    }
+    .block{
+        float: none;
+        width: 350px;
+        height: 100px;
+
+
+    }
+    .block div{
+        background-color: aqua;
+        float: none;
+        height: 90px;
+        margin: 5px;
+    }    
+}
+
