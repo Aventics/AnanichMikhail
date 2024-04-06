@@ -1,6 +1,9 @@
 td:not(.last){
     border-right: 1px dotted gray;
 }
+caption{
+    caption-side: bottom;
+}
 td:not(.bottom){
     border-bottom: 1px dotted gray;
 }
